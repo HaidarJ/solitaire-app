@@ -1,0 +1,44 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  
+  height: 800px;
+}
+
+.left-card-selection-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.right-side-card-collector {
+  border: 3px green solid;
+  height: 200px;
+  width: 150px;
+}
+
+.playing-cards {
+  border: 3px green solid;
+  height: 150px;
+  margin-top: 50px;
+}
+
+.card-collection-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-button {
+  background: lightcoral;
+  width: 100px;
+  margin: 20px;
+  padding: 5px;
+  font-weight: bold;
+}
+.card-button:hover {
+  width: 110px;
+  transition: ease-in;
+}
+
+.right-side-card-container {
+  display: flex;
+}
